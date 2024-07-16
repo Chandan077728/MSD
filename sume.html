@@ -69,7 +69,8 @@
     </body>
     <body>
         <h2> Name : CHANDAN</h2>
-        <h3> Email id :<a></a> <u>chandan.poojary12345@gmail.com</u></h3>
+        <h3> Email id :<a href="mail to:chandan.poojary12345@gmail.com">chandan.poojary12345@gmail.com</a></h3>
+        <p><a href="https://www.linkedin.com/in/chandan-poojary-37b299228/">Linkedin Profile</a></p>
         
         <hr/>
         <h3>OBJECTIVE :</h3>
@@ -140,13 +141,43 @@
     </body>
     <head>
         <title>Reference</title>
+        <style>
+            .frame-container {
+  position: relative;
+}
+.iframe-button {
+  display: none;
+  position: absolute;
+  top: 15px;
+  left: 15px;
+}
+
+/* Only show the button when the parent is hovered: */
+
+.frame-container:hover .iframe-button {
+  display: initial;
+}
+
+        </style>
     </head>
     <body>
-        <iframe height="400px" width="600px" name="myframe"></iframe>
-
-        <br>
-        <br>
-        <a ref=""
+      <!-- <div class="container"> -->
+            <!-- <div class="mosaic"> -->
+                <!-- <iframe id="if1" src="https://www.youtube.com/embed/m-5ck3BuT1o?si=xb8OQ1NHcUve8txj" title="YouTube video player" frameborder="0" -->
+                 <!-- allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" -->
+                  <!-- referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></div>         -->
+            <!-- <button onclick="if1play(); return false;">⏯️</button> -->
+            <!-- <button onclick="stop();">⏹</button> -->
+            <!-- <button onclick="playAll();">▶▶ Play All</button></iframe> -->
+        <!-- </div> -->
+        <div class="frame-container">
+            <button class="iframe-button">
+              Click me
+            </button>
+          
+            <iframe width="300px"hieght="400px" src="https://www.youtube.com/embed/m-5ck3BuT1o?si=3kzjTvZTiWe8ZFxi" 
+           ></iframe>
+          </div>
     </body>
     
 </html>
