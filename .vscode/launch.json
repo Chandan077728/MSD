@@ -9,7 +9,7 @@
         {
             "type":"chrome",
             "request":"launch",
-            "name":"open sume.html",
-            "file":"C:\\Users\\HP\\Desktop\\HTML\\MSD\\sume.html"
+            "name":"ope sign in.html",
+            "file":"C:\\Users\\HP\\Desktop\\HTML\\MSD\\sign in.html"
         }        
     ]-    

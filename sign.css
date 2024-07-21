@@ -1,0 +1,122 @@
+.body{
+    margin: 0;
+    padding: 0;
+    background: #fff;
+    background-size: cover;
+    font-family: 'Noto Sans Myanmar UI',Arial, Helvetica, sans-serif;
+}
+
+.main{
+   position:absolute;
+   top:50%;
+   left:50;
+   transform:translate(150%);
+
+}
+.Google{
+    position:   relative;
+    width: 380px;
+    top:-370px;
+
+    
+}
+.box{
+    position: relative;
+    top: 50%;
+    
+
+    
+
+     width: 26rem;
+    padding: 2.5rem;
+    transform: translate(95%);
+
+}
+.box1{
+    transform: translate(41%);
+}
+ .inputBox{
+    position:relative;
+    transform: translate(41%);
+    
+
+}
+.inputBox input{
+       width:10%;
+       font-size:1rem;
+       letter-spacing: 0.0625rem;
+       border:1px solid #ccc;
+       background: transparent;
+       margin-bottom: 1.875rem;
+       border-radius: 4px;
+       
+
+}
+ box .inputBox label{
+    position:absolute;
+    top:0;
+    left:10px;
+    padding:0.625rem 0;
+    font-size: 1rem;
+    color: #ccc;
+    pointer-events:none;
+    transition: o.35;
+}
+.forgot{
+    
+    transform: translate(720%);
+
+}
+.forgot
+{
+    border-radius: 4px;
+    color: #241ae8;
+    display: inline-block;
+    letter-spacing: .25px;
+    font-weight: 500;
+    outline: 0;
+    position: relative;
+    background-color: transparent;
+    cursor: pointer;
+    font-size: inherit;
+    
+    text-align: left;
+    border:
+}
+ input[type="submit"]
+{
+    border:none;
+    outline: none;
+    color: #fff;
+    background-color: #1a73e8;
+    padding:0.625rem 1.25rem;
+    cursor:pointer;
+    border-radius: 1rem;
+    transform: translate(800%);
+    
+
+
+    
+
+}
+.box input [type="submit"]:hover{background-color: #287ae6;}
+.box .inputBox input:focus ~label,
+.box .inputBox input:valid ~label,
+.box .inputBox input:not([value=""])~label
+{
+    top: -1.125em;
+    left:10px;
+    color:#1973e8;
+    font-size: .75rem;
+    background-color: #fff;
+    height:10px;
+    padding:0.5px;
+}
+.box .inputBox input:focus
+{
+    outline:none;
+    border:2px solid #1973e8;
+}
+
+
+
