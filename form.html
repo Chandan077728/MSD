@@ -1,20 +1,28 @@
 <html>
     <head>
         <style>
-            input[type=text]
+            chandan[type=text]
             {
                 width=100%
                 padding: 12px 2px;
                 margin:8px 0;
+                background color:
 
+
+            }
+            .chandu{
+                background-color: skyblue;
+            }
+            .tr5j:hover{
+                color: rgb(226, 43, 43);
             }
         </style>
     </head>
-    <body>
+    <body >
 
         <legend><b>EMPLOYEE DETAILS</b></legend>
-        <form>
-            <fieldset>
+        <form class="chandu">
+            <fieldset >
 
              <p>
                  First name: <input type = "text" name = "fname" />
@@ -33,18 +41,22 @@
         </p>
          
         <p>
-        Designation: <input type = "text" name = "ID" />
+        Designation: <input type =  "text" name = "ID" />
         </p>
          
         <p>
         <br>
-        country code:<input type ="text" name="code" > 
-        <br>
-        Phone Number: <input type = "text" name = "phone" />
+        
+        Phone Number:<select name="country code" id="code">
+            <option value=""></option>
+            <option value="+91">+91</option>
+            <option value="+63">+63</option>
+            <option value="+79">+79</option>
+          </select> <input type = "text" name = "phone" />
         </p>
          
          <p>
-              <input type = "submit" name = "submit" value = "Submit" />
+              <input class="tr5j" type  = "submit" name = "submit" value = "Submit" />
             </p>
         </fieldset>
         </form>
