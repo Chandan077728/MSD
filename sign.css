@@ -46,7 +46,7 @@
        font-size:1rem;
        letter-spacing: 0.0625rem;
        border:1px solid #ccc;
-       background: transparent;
+       background:#fff;
        margin-bottom: 1.875rem;
        border-radius: 4px;
        
@@ -59,7 +59,7 @@
     padding:0.625rem 0;
     font-size: 1rem;
     color: #ccc;
-    pointer-events:none;
+    pointer-events: visible;
     transition: o.35;
 }
 .forgot{

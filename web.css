@@ -1,102 +1,205 @@
-*{
-    margin:0;
-    padding:0;
-    font-family: sans-serif;
-}
-.banner{
-    width:100%;
-    height:100vh;
-    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),
-    url(vecteezy_modern-home-interior-background-by_22263188.jpg);
-    background-size: cover;
-    background-position: center;
-}
-.navbar{
-    width=85%;
-    margin:auto;
-    padding:35px 0;
-    display:flex;
-    align-items:center;
-    justify-content:space-between ;
-}
-.logo{
-    width: 120px;
-    cursor:pointer;
+body {
+    overflow-x: hidden;
 
 }
-.navbar ul li{
+
+.navbar-custom {
     list-style: none;
-    display:inline-block;
-    margin:0 20px;
-    position:relative;
-    color:#fff;
-}
-.navbar ul li a{
-    text-decoration: none;
-    color: #fff;
-    text-transform: uppercase;
-}
-.navbar ul li::after{
-    content:'';
-    height:3px;
-    width:0;
-    background:#009688;
-    position:absolute;
-    left:0;
-    bottom: -10px;
-    transition: 0.5s;
-}
-.navbar ul li:hover::after{
-    width:100%;
-}
-.content{
-    width:100%;
-    position:absolute;
-    top:50%;
-    transform: translate(-50%);
-    color:#fff;
-}
-.content h1{
-    font-size: px;
-    margin-top: 10px;
-    transform: translate(80%);
+    margin: 5px 20px;
 
 }
-.content p{
-    margin:20px auto;
-    font-weight: 25px;
-    transform: translate(87%);
-}
-button{
-    width:200px;
-    padding:15px 0;
-    text-align: center;
-    margin:20px 10px;
-    border-radius:25px;
-    font-weight: bold;
-    border: 2px solid #009688;
-    background: transparent;
-    cursor: pointer;
-    position: relative;
-    overflow: hidden;
-    transform: translate(630%);
-    color:#fff;
-}
-span{
-    background: #009688;
-    height: 100%;
-    width:0%;
-    border-radius: 25px;
-    position: absolute;
-    left:0;
-    bottom: 0;
-    transition: 0.5s;
-    z-index: -1;
 
+.button-custom {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 24px;
+    padding-right: 24px;
 }
-button:hover span{
-    width:100%;
+
+.people-custom {
+    font-size: 30px;
 }
-button:hover{
-    border:none;
+
+.colleagues-custom {
+    font-size: 53px;
+}
+
+.footer-section ul li {
+    list-style: none;
+}
+
+#people {
+    margin-top: 100px;
+}
+
+#learning {
+    margin-top: 100px;
+}
+
+.footer-custom {
+    margin-top: 100px;
+}
+
+/* media queries for tablet */
+@media only screen and (min-width: 768px) and (max-width:1199px) {
+
+    /* navbar css */
+    .navbar-brand img {
+        margin-left: 17rem;
+
+    }
+
+    .navbar-custom {
+        margin: 0 auto;
+    }
+
+    /* content css */
+    .content-div {
+        padding-left: 20%;
+    }
+
+    .homeImg {
+        width: 70%;
+        margin-left: 15%;
+    }
+
+    /* people section */
+    #people{
+        margin-top: -70px;
+    }
+    #people h4{
+        margin: 0 64px;
+    }
+    #people .first-column h4 br {
+        display: none;
+    }
+    .first-column p br{
+        display: none;
+    }
+    .first-column p{
+        font-size: 20px;
+        margin: 10px 70px !important;
+    }
+    .second-column img{
+       margin-left: 10%;
+       margin-top: 20px;
+    }
+    /* colleagues section */
+    #learning{
+        margin-top: 3rem;
+    }
+    #learning p br{
+        display: none;
+    }
+    #learning p {
+        font-size: 34px;
+        margin: 0 58px;
+    }
+    #learning .button-custom{
+        margin: 0 60px;
+    }
+    
+    /* footer css */
+    .footer-custom{
+        margin-top: 44px;
+    }
+    .footer-custom .row{
+        padding-left: 52px;
+    }
+}
+
+/* for mobile */
+@media only screen and (max-width: 767px) {
+    .navbar-brand img {
+        margin-left: 120px;
+    }
+
+    .navbar-custom span {
+        margin-right: 36px !important;
+    }
+
+    .button-custom {
+        margin-right: 35px;
+        margin-top: 12px;
+    }
+
+    /* content section */
+    .content-div h1 {
+        padding-left: 28px;
+    }
+
+    .content-div .form-control {
+        width: 80% !important;
+        margin-left: 20px;
+    }
+
+    .content-div .button-custom {
+        width: 100% !important;
+    }
+
+    .content-div .forgot-pass {
+        padding-left: 24px;
+
+    }
+
+    .content-div .btn {
+        width: 80% !important;
+        margin-left: 20px;
+    }
+
+    .content-div p:nth-child(2) {
+        display: none;
+    }
+
+    .sign-in {
+        margin-top: 10px;
+    }
+
+    .homeImg {
+        width: 100%;
+        margin-top: -84px;
+    }
+
+    /* people section */
+    #people .row {
+        margin-top: -61%;
+    }
+
+    #people p {
+        font-size: 20px;
+    }
+
+    #people img {
+        width: 78% !important;
+        margin-top: 20px;
+    }
+
+    /* colleagues section */
+    #learning {
+        margin-top: 52px;
+        margin-bottom: 7px;
+    }
+
+    .colleagues-custom {
+        width: 82vw;
+        font-size: 26px;
+    }
+
+    .colleagues-custom br {
+        display: none;
+    }
+
+    /* footer */
+    .footer-custom {
+        margin-top: 30px;
+    }
+
+    .footer-custom img {
+        margin-left: 32%;
+    }
+
+    .footer-section {
+        margin-right: 10%;
+        text-align: center;
+    }
 }

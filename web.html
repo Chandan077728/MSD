@@ -1,146 +1,184 @@
 <!DOCTYPE html>
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<html lang="en">
+
 <head>
-  <title>MY WEB PAGE</title>
-  <link rel="stylesheet" href="web.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-
-  
-  
-  <nav class="navbar navbar-light bg-light">
-    <div class="container">
-      <a class="navbar-brand" href="#">
-        <img src="watermark_preview_image20240721-1-ryaoyx-transformed.png" alt="" width="100" height="70">
-      </a>
-    </div>
-  </nav>
-  
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LinkedIn </title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
 </head>
-    <body>
-      
-         <div class="banner">
-          <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <div class="container-fluid">
-              <a class="navbar-brand" href="#"><i class="fa fa-bars" aria-hidden="true"></i>MENU</a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#"><i class="fa fa-home" width="50" aria-hidden="true"></i>Home</i></a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#"><i class="fa fa-link" aria-hidden="true"></i>Link</a>
-                  </li>
-                  <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      <i class="fa fa-chevron-circle-down" aria-hidden="true"></i>Dropdown
-                    </a>
-                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                      <li><a class="dropdown-item" href="#">Action</a></li>
-                      <li><a class="dropdown-item" href="#">Another action</a></li>
-                      <li><hr class="dropdown-divider"></li>
-                      <li><a class="dropdown-item" href="#">Something else here</a></li>
-                    </ul>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-                  </li>
-                </ul>
-                
-                
-                <form class="d-flex">
-                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                  <button class="btn btn-outline-success" type="submit">Search</button>
-                </form>
-              </div>
-            </div>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3878.0056726863127!2d74.67506287490447!3d13.596465586779384!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bbc92186420dbfd%3A0x55ac026f5d4e55e0!2sHaiguli%2C%20Bobbarya%20and%20Panjurli%20Temple!5e0!3m2!1sen!2sin!4v1721707758935!5m2!1sen!2sin" width="300" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-          </nav>
 
-          
-          <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-indicators">
-              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-            </div>
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img src="61ueqI-j03L._SX679_.jpg" class="d-block w-100" alt="...">
-              </div>
-              <div class="carousel-item">
-                <img src="texture-wallpaper-design-interior-pattern-design-furniture-ad-premium-wall-hotel-room_849827-29.avif" class="d-block w-100" alt="...">
-              </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
-          </div>
+<body>
+    <!-- Navbar starts here -->
+    <nav class="navbar bg-body-tertiary shadow-lg sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="linkedin-5380185_1280.png" alt="Logo" width="120" height="40" class="d-inline-block align-text-top">
+            </a>
+            <ul class="navbar justify-content-end navbar-custom">
+                <li class="nav-item me-4">
+                    <a class="nav-link" href="#About">About</a>
+                </li>
+                <li class="nav-item me-4">
+                    <a class="nav-link" href="#people">People</a>
+                </li>
+                <li class="nav-item me-4">
+                    <a class="nav-link" href="#learning">Learning</a>
+                </li>
+                <li class="nav-item me-4">
+                    <a class="nav-link" href="#footer">Jobs</a>
+                </li>
+                <span class="ms-4 ">Join now</span>
+                <div class=" ms-5 ">
+                    <button type="button" class="btn btn-outline-primary rounded-pill button-custom ">Sign In</button>
+                </div>
+            </ul>
 
-            <div class="content">
-              <h1>DESING YOUR DREAM HOUSE</h1>
-              <p>It will be better than anything else.</p>
-              <div>
-                <button type="button"><span></span>Watch more</button>
-                <button type="button"><span></span>Subscribe</button>
-              </div>
-              
-              
-            
+        </div>
 
-         </div>
-    </body>
-    </html>
-    <!doctype html>
-    <html lang="en">
-      <head>
-        <title>Title</title>
-        <!-- Required meta tags -->
-        <meta charset="utf-8" />
-        <meta
-          name="viewport"
-          content="width=device-width, initial-scale=1, shrink-to-fit=no"
-        />
+
+    </nav>
+
+    <!-- content starts here -->
+    <div class="container mt-5">
+        <div class="row">
+            <div class=" col-lg-6 col-md-12 content-div">
+                <h1 class="display-5" style="color: #8f5849;">Welcome to your <br>professional community. </h1>
+                <div class="form-input mt-4">
+                    <input class="form-control border-3" id="email" style="width: 70%;" type="text"
+                       autocomplete="off" placeholder="Email or phone number" aria-label="default input example">
+                    <input class="form-control border-3 mt-2" id="password" style="width: 70%;" type="password" placeholder="Password"
+                        aria-label="default input example">
+                    <p class="mt-2 forgot-pass">Forgot password?</p>
+                    <div>
+                        <button onclick="signInAlert()" style="width: 70%;" type="button"
+                            class="btn btn-primary rounded-pill p-3">Sign
+                            in</button>
+                        <p> ___________________________or____________________________</p>
+                        <button style="width: 70%;" type="button"
+                            class="btn btn-light rounded-pill p-3 border border-dark sign-in">Sign in with Google</button>
+                        <button style="width: 70%;" type="button"
+                            class="btn btn-light mt-3 rounded-pill p-3 border border-dark">New to LinkedIn? Join
+                            now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-12">
+                <img src="Screenshot-2023-06-09-at-2.23.31-PM-730x512.png" width="700" height="560" class="homeImg" alt="home-banner">
+
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <!-- people section starts here -->
+
+    <div class="container" id="people">
+        <div class="row">
+            <div class="col-lg-6 col-md-12  mt-5 first-column">
+                <h4 class="display-5" style="color: #8f5849;">Let the right people know <br> you’re open to work</h4>
+                <p class="display-5 people-custom">With the Open To Work feature, you can <br> privately tell recruiters
+                    or publicly share <br> with the LinkedIn community that you are looking for new job opportunities.
+                </p>
+            </div>
+            <div class="col-lg-6 col-md-12 second-column">
+                <div class="ms-5">
+                  <br>
+                  <br>
+                    <img style="width: 90%;" src="linkedin-banner-examples-1024x538.png.webp" alt="" srcset="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <br>
+    <br>
+    <!-- join our colleagues starts here -->
+
+    <div class="container-fluid" id="learning">
+        <div class="row">
+            <div class="col-lg-12 ps-5">
+                <p class="display-5 colleagues-custom">Join your colleagues, classmates, and friends on <br> LinkedIn.
+                </p>
+                <button type="button" class="btn btn-primary rounded-pill button-custom mt-3">Get started</button>
+            </div>
+        </div>
+    </div>
+   <br>
+   <div class="container-fluid" id="About">
+    <div class="row">
+       <div class="col-md-12 ps-5">
+        <p class="display-5 colleagues-custom">Welcome to LinkedIn, the world's largest professional network with more than
+          1 billion members in more than 200 countries and territories worldwide.</p>
+          <br>
+          <h3 align="center">VISION</h3>
+          <p  align="center">Create economic opportunity for every member of the global workforce.</p>
+          <br>
+          <h3 align="center">MISSION</h3>
+          <p align="center">The mission of LinkedIn is simple: connect the world’s professionals to make them more productive and successful.
+          </p>
+          <br>
+          <h3 align="center">Who are we?</h3>
+          <br>
+          <p align="center">LinkedIn began in co-founder Reid Hoffman's living room in 2002 and was officially launched on May 5, 2003.
+
+            Today, LinkedIn leads a diversified business with revenues from membership subscriptions, advertising sales and recruitment solutions under the leadership of Ryan Roslansky. In December 2016, Microsoft completed its acquisition of LinkedIn, bringing together the world’s leading professional cloud and the world’s leading professional network.
+            </p>
+            <br>
+            <h3 align="center">For more information about our company:</h3>
+            <br>
+            <h4 align="center"><a  href="Company page">Company page</a><h4>
+            <br>
+           <h4 align="center" ><a href="Product Services">Product Services</a></h4>
+       </div>
+    </div>
+   </div>
+
+    <!-- footer starts here -->
+    <footer class="bg-dark text-white pt-5 pb-5 footer-custom" id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-2">
+                    <img src="linkedin-5380185_1280.png" alt="Logo" width="120" height="40" class="d-inline-block align-text-top">
+                </div>
+                <div class="col-md-3">
+                    <div class="footer-section">
+                        <ul>
+                            <li><strong> General</strong></li>
+                            <li>Sign Up</li>
+                            <li>Blog</li>
+                            <li>Help center</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="footer-section">
+                        <ul>
+                            <li><strong> Browse LinkedIn</strong></li>
+                            <li>Learning</li>
+                            <li>Jobs</li>
+                            <li>Salary</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="footer-section">
+                        <ul>
+                            <li><strong> Business Solutions</strong></li>
+                            <li>Talent</li>
+                            <li>Marketing</li>
+                            <li>Sales</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
     
-        <!-- Bootstrap CSS v5.2.1 -->
-        <link
-          href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
-          rel="stylesheet"
-          integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
-          crossorigin="anonymous"
-        />
-      </head>
-    
-      <body>
-        
-        <header>
-          <!-- place navbar here -->
-           
-        </header>
-        <main></main>
-        <footer>
-          <!-- place footer here -->
-        </footer>
-        <!-- Bootstrap JavaScript Libraries -->
-        <script
-          src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
-          integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
-          crossorigin="anonymous"
-        ></script>
-    
-        <script
-          src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
-          integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
-          crossorigin="anonymous"
-        ></script>
-      </body>
-    </html>
+</body>
+
+</html>
     

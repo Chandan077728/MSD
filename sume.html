@@ -145,18 +145,10 @@
             .frame-container {
   position: relative;
 }
-.iframe-button {
-  display: none;
-  position: absolute;
-  top: 15px;
-  left: 15px;
-}
+
 
 /* Only show the button when the parent is hovered: */
 
-.frame-container:hover .iframe-button {
-  display: initial;
-}
 
         </style>
     </head>
@@ -171,12 +163,8 @@
             <!-- <button onclick="playAll();">▶▶ Play All</button></iframe> -->
         <!-- </div> -->
         <div class="frame-container">
-            <button class="iframe-button">
-              Click me
-            </button>
           
-            <iframe width="300px"hieght="400px" src="https://www.youtube.com/embed/m-5ck3BuT1o?si=3kzjTvZTiWe8ZFxi" controls
-           ></iframe>
+            <iframe width="300px"hieght="400px" autoplay src="https://www.youtube.com/embed/m-5ck3BuT1o?si=3kzjTvZTiWe8ZFxi"controls  ></iframe>
           </div>
     </body>
     
