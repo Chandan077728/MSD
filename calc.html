@@ -1,44 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
-<meta name="viewport">
-<meta charset="UTF-8">
 <head>
-   <title>calc</title>
-   <link rel="stylesheet" href="cali.css">
-   
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caclulator</title>
+    <link rel="stylesheet" href="cali.css">
 </head>
 <body>
-  
-    <div id="calculator">
-      <input type="text" id="display" />
-      <div id="buttons">
-         <button onclick id="display('AC')">AC</button>
-         <button onclick id="display('DEL')">DEL</button>
-         <button onclick id="display('%')">%</button>
-         <button onclick id="disply('/')">/</button>
-         <br>
-         <button onclick id="display('7')">7</button>
-         <button onclick id="displa('8')">8</button>
-         <button onclick id="display('9')">9</button>
-         <button onclcick id="display('*')">*</button>
-         <br>
-         <button onclick id="display('4')">4</button>
-         <button onclick id="display('5')">5</button>
-         <button onclick id="display('6')">6</button>
-         <button onclick id="display('-')">-</button>
-         <br>
-         <button onclick id="display('1')">1</button>
-         <button onclcick id="display('2')">2</button>
-         <button onclick id="display('3')">3</button>
-         <button onclick id="display('+)">+</button>
-         <br>
-         <button onclick id="isplay('0')">0</button>
-         <button onclcik id="display('00')">00</button>
-         <button onclick id="display('.')">.</button>
-         <button onclick id="display('=')">=</button>
-
-         <script src="cal.js"></script>
-         
-     </div>
-    </div>  
-    </html>   
+    <script src="calculator.js"></script>
+    <div class="calc">
+        <input type="text" id="display">
+        <div class="containers">
+            <button class="numbers" value="1" onclick="displaybutton">CE</button>
+            <button class="numbers" value="clear" onclick="displaybutton">C</button>
+            <button class="numbers" value="correct" onclick="displaybutton">X</button>
+            <button class="numbers" value="+" onclick="displaybutton">+</button>
+            <br>
+            <button class="numbers" value="1" onclick="displaybutton">1</button>
+            <button class="numbers" value="clear" onclick="displaybutton">2</button>
+            <button class="numbers"value="correct" onclick="displaybutton">3</button>
+            <button class="numbers" value="-" onclick="displaybutton">-</button>
+            <br>
+            <button class="numbers" value="1" onclick="displaybutton">4</button>
+            <button class="numbers" value="clear" onclick="displaybutton">5</button>
+            <button class="numbers" value="correct" onclick="displaybutton">6</button>
+            <button class="numbers" value="*" onclick="displaybutton">*</button>
+            <br>
+            <button class="numbers" value="1" onclick="displaybutton">7</button>
+            <button class="numbers" value="clear" onclick="displaybutton">8</button>
+            <button class="numbers" value="correct" onclick="displaybutton">9</button>
+            <button class="numbers" value="/" onclick="displaybutton">/</button>
+            <br>
+            <button class="numbers" value="1" onclick="displaybutton">0</button>
+            <button class="numbers" value="clear" onclick="displaybutton">.</button>
+            <button class="numbers" value="correct" onclick="displaybutton">=</button>
+            <button class="numbers" value="%" onclick="displaybutton">%</button>
+        </div>
+    </div>
+</body>
+</html>
