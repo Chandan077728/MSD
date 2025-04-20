@@ -1,4 +1,4 @@
-# Career Predition APP
+# Career Predition APP ML BASED
 🎓 Career Guidance System
 An intelligent, machine learning-powered web application that recommends personalized career paths and educational directions based on students' academic performance, interests, skills, and communication abilities.
 
